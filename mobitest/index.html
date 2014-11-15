@@ -43,9 +43,34 @@ function stopFlip() {
  clearTimeout(t);     
  flipping=0; 
 } 
-</script>    
+</script>
+<style>
+body {
+  font-family:arial, helvetica;
+  text-align: center;
+}
+#container {}
+#directions, #flashlight, #danceparty {
+  margin:4px;
+}
+ ol {
+  display: inline-block;
+  margin: 0 auto;
+  text-align:left;
+ }
+ .bigButton {
+    font-size:18px;
+}
+</style>
 </head>  
-<body>     
+<body>
+    <h1>WatzThis?</h1>
+<div id="directions">
+<ol>
+  <li>Use the top row of buttons to turn the flashlight on or off, or to make the light red.</li>
+  <li>Use the 2nd row of buttons to turn on and off your automatic flashing color light dance party.</li>
+</ol>
+</div>
 <div id="container"> 
 
 <div id="flashlight">
