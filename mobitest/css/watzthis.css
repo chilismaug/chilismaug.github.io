@@ -1,0 +1,48 @@
+h2 {
+  text-shadow: #a1a1a7 2px 2px 2px;
+}
+h2:hover{
+  -moz-transform: scale(2.5);
+  -webkit-transform: scale(2.5);
+  color: #fafafa;
+}
+
+body {
+  font-family:arial, helvetica;
+  text-align: center;
+}
+ 
+}
+#container {}
+#directions, #flashlight, #danceparty {
+  margin:4px;
+}
+ol {
+  display: inline-block;
+  margin: 0 auto;
+  text-align:left;
+ }
+ .bigButton {
+    font-size:18px;
+}
+footer {
+  font-size: 55%;
+  border: 1px solid #434343;
+  padding: 4px;
+  background: #e3e3e3;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  width: 50%;
+  transition: width 1s;
+  -webkit-transition: width 1s; /* Safari 3.1 to 6.0 */
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+footer:hover {
+  width: 90%;
+  background: #b3d9d9;
+  font-size: 90%;
+
+}
