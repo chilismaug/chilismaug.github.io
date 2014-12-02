@@ -24,6 +24,7 @@ light[4] = "green";
 light[5] = "orange";  
 function flip(whichway){   
     document.body.style.backgroundColor = light[whichway];
+	document.getElementById("colorName").innerHTML = document.body.style.backgroundColor;
     stopFlip(); 
 }      
 function autoFlip() { 
@@ -56,7 +57,7 @@ function stopFlip() {
 
 
 <div id="colorName"><h2></h2></div> 
-
+<br>
 
 <div id="directions">
 <ol>
