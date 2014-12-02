@@ -34,6 +34,7 @@ function autoFlip() {
       color=0;     
     }     
 t = setTimeout("autoFlip(speed)",speed); 
+document.getElementById("colorName").innerHTML = document.body.style.backgroundColor;
 } 
 function doAutoFlip(changespeed){     
   if (!flipping){         
@@ -48,11 +49,18 @@ function stopFlip() {
 } 
 </script>
 
-
 </head> 
 
 <body>
 <h1>WatzThis?</h1>
+
+
+
+
+
+<div id="colorName"> </div> 
+
+
 <div id="directions">
 <ol>
   <li>Use the top row of buttons to turn the flashlight on or off, or to make the light red.</li>
@@ -60,6 +68,7 @@ function stopFlip() {
   <li> <a href="docs.html">Whatz Docz?</a></li>
 </ol>
 </div>
+
 <div id="container">
 <div id="flashlight">
 <input type="button" id="OFF" class="bigButton" value="OFF" onclick="flip(0);"> 
@@ -71,5 +80,6 @@ function stopFlip() {
 <input type="button" id="STOP" class="bigButton" value="STOP" onclick="stopFlip();"> 
 </div>     
 </div>
+
 </body> 
 </html> 
