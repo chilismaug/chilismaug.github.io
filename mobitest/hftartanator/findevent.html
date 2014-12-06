@@ -14,7 +14,7 @@
 
 <div data-role="page">
 
-	<div data-role="header">
+		<div data-role="header" data-position="fixed">
 	<a href="index.html" rel="prev" data-icon="back">Back</a>
 		<h1>The Tartanator: Find Event</h1>
 	</div><!-- /header -->
@@ -22,11 +22,16 @@
 	<div data-role="content">	
     <p></p>
   
-	</div><!-- /content -->
-
-	<div data-role="footer" data-position="fixed" data-theme="c">
-		Bring forrit the tartan!
-	</div><!-- /footer -->
+		</div><!-- /content -->
+		<div data-role="footer" data-position="fixed"  >
+			<div data-role="navbar"> 
+				<ul >
+					<li><a href="index.html" >About</a></li>
+					<li><a href="findevent.html" class="ui-btn-active">Events</a></li>
+					<li><a href="tartans.html">Tartans</a></li>
+				</ul>
+			</div><!-- /navbar -->
+		</div><!-- /footer -->
 </div><!-- /page -->
 
 </body>
