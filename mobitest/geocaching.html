@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Find Caches Near Me!
+</title>
+<script>
+navigator.geolocation.getCurrentPosition(makeLink, noLink);
+ 
+function makeLink(position)
+{
+  var lat = position.coords.latitude;
+  var long = position.coords.longitude;
+  document.location.href="http://www.geocaching.com/seek/nearest.aspx?origin_lat="+lat+"&origin_long="+long+"&dist=100&submit3=Search";
+ 
+}
+function noLink()
+{
+  alert('Location not found!');
+}
+ 
+</script>
+ 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+</head>
+ 
+<body>
+<h1>Geocaches</h1>
+<p>If your browser asks to use your current location, click Yes. You will then be redirected to geocaching.com</p>
+</body>
+</html>
