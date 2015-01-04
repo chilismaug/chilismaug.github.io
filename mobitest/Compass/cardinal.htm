@@ -1,41 +1,43 @@
-<!-- This Source Code has been munged!!!!!. -->
+<!-- This Code has been sponged and munged!!!!!
+95 percent of this code came from two devs who shared online, and I just 
+mashed, sanded, spackled and duct taped until I got my result to run on my phone. 
+They are:
+ cgack (Cory Gackenheimer) https://developer.mozilla.org/en-US/demos/detail/simple-compass
+ - this app was just what I wanted - simplest possible compass, but it didn't behave on my iPhone
+  and 
+ Ruadhan O'Donoghue http://mobiforge.com/design-development/html5-mobile-web-device-orientation-events
+ - this app is the best basic Html5 compass demo out there, very good work, but it uses a graphic and I want just one file. 
+ So I mashed 'em together and it still works. Yay!
+-->
 <!DOCTYPE html>
 <html manifest="compass.appcache">
 <head>
 <meta charset=utf-8 />
-<title>Cardinal Direction Compass</title>
+<title>Simplistic HTML5 Compass</title>
 <style>
-.pointer {
+.pointer-stake {
 height: 0;
 width: 0;
-border-left: 2em solid transparent;
-border-right: 2em solid transparent;
-border-bottom: 8em solid black;
+border-left: 1em solid transparent;
+border-right: 1em solid transparent;
+border-bottom: 6em solid gray;
 margin: -10px 0 0 -40px;
-top: 40%;
-left: 50%;
+top: 45%;
+left: 52%;
 position: absolute;
 }
-.n {
+.northsouth {
 top: 20%;
 left:50%;
 position:absolute;
-font:5em Helvetica;
+font:7em Courier;
 margin: 0 0 0 -40px;
 }
 </style>
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-</head>
-<body>
-
-<div class="n">N<br><br><br><br><br>S</div>
-<div class="pointer"></div>
-
 <script>
 $(document).ready(function() {
 if (window.DeviceOrientationEvent) {
-
-
 window.addEventListener('deviceorientation', function(event) {
 	  var dir='';
 	  var alpha;
@@ -47,18 +49,18 @@ window.addEventListener('deviceorientation', function(event) {
 	  }
 	  else alpha = event.alpha;
 	  
-	  $(".n").css({ 'transform': 'rotate(' + alpha + 'deg)'});
-	  $(".n").css({ 'webkit-transform': 'rotate('+dir + alpha + 'deg)'});
-	  $(".n").css({ 'moz-transform': 'rotate(-' + alpha + 'deg)'});
-	  
- 
+	  $(".northsouth").css({ 'transform': 'rotate(' + alpha + 'deg)'});
+	  $(".northsouth").css({ 'webkit-transform': 'rotate('+dir + alpha + 'deg)'});
+	  $(".northsouth").css({ 'moz-transform': 'rotate(-' + alpha + 'deg)'});  
 
 }, false);
 }
 });
 </script>
+</head>
 
-
-
+<body>
+<div class="northsouth">N<br><br><br><br><br>S</div>
+<div class="pointer-stake"></div>
 </body>
 </html>
