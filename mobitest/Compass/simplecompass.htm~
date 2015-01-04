@@ -12,7 +12,8 @@ So I mashed 'em together and it still works. Yay!
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
 <meta charset=utf-8 />
 <title>Simplistic HTML5 Compass</title>
 
