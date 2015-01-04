@@ -28,16 +28,14 @@ margin: 0 0 0 -40px;
 </head>
 <body>
 
-<div class="n">N<br><br><br><br>S</div>
+<div class="n">N<br><br><br><br><br>S</div>
 <div class="pointer"></div>
 
 <script>
 $(document).ready(function() {
 if (window.DeviceOrientationEvent) {
 
-//cgack-original handler
-//window.addEventListener("deviceorientation", function (e) {
-//rotate(360 - e.alpha);
+
 window.addEventListener('deviceorientation', function(event) {
 	  var dir='';
 	  var alpha;
