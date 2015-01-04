@@ -12,9 +12,13 @@ So I mashed 'em together and it still works. Yay!
 <!DOCTYPE html>
 <html>
 <head>
+ <meta name="HandheldFriendly" content="True">   
+ <meta name="MobileOptimized" content="320"/> 
+ <meta name="apple-mobile-web-app-capable" content="yes">
+ <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">  
+ <meta charset=utf-8 /> 
+ <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 
-
-<meta charset=utf-8 />
 <title>Simplistic HTML5 Compass</title>
 
 <style>
@@ -37,7 +41,7 @@ font:7em Courier;
 margin: 0 0 0 -40px;
 }
 </style>
-<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
 <script>
 $(document).ready(function() {
 if (window.DeviceOrientationEvent) {
