@@ -29,9 +29,11 @@
 	    dir='-';
 	  }
 	  else alpha = event.alpha;
+	  
 	  compass.style.Transform = 'rotate(' + alpha + 'deg)';
 	  compass.style.WebkitTransform = 'rotate('+dir + alpha + 'deg)';
 	  compass.style.MozTransform = 'rotate(-' + alpha + 'deg)'; 
+	  
 	}  , false);
       }
     }

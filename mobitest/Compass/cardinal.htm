@@ -1,6 +1,4 @@
-<!-- This Source Code Form is subject to the terms of the Mozilla Public
-- License, v. 2.0. If a copy of the MPL was not distributed with this file,
-- You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!-- This Source Code has been munged!!!!!. -->
 <!DOCTYPE html>
 <html manifest="compass.appcache">
 <head>
@@ -29,6 +27,7 @@ margin: 0 0 0 -40px;
 <script src="js/jquery.js"></script>
 </head>
 <body>
+
 <div class="n">N<br><br><br><br>S</div>
 <div class="pointer"></div>
 
@@ -42,16 +41,19 @@ if (window.DeviceOrientationEvent) {
 window.addEventListener('deviceorientation', function(event) {
 	  var dir='';
 	  var alpha;
-	  //Check for iOS property
+	  //Check for iOS property fpr how to set alpha
 	  if(event.webkitCompassHeading) {
 	    alpha = event.webkitCompassHeading;
 	    //Direction is reversed for iOS
 	    dir='-';
 	  }
 	  else alpha = event.alpha;
-	  $(".n").style.Transform = 'rotate(' + alpha + 'deg)';
-	  $(".n").style.WebkitTransform = 'rotate('+dir + alpha + 'deg)';
-	  $(".n").style.MozTransform = 'rotate(-' + alpha + 'deg)'; 
+	  
+	  $(".n").css({ 'transform': 'rotate(' + alpha + 'deg)'});
+	  $(".n").css({ 'webkit-transform': 'rotate('+dir + alpha + 'deg)'});
+	  $(".n").css({ 'moz-transform': 'rotate(-' + alpha + 'deg)'});
+	  
+ 
 
 }, false);
 }
