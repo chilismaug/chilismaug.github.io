@@ -1,6 +1,6 @@
 Dan ManCa's THE GOAL
 
-##The 3 Step Action Plan for Finding the Right Job Now##
+##The 3 Step Action Plan##
 
 1)   Set Your Goal: Have you taken the time to clearly identify where you want your career to go - and how to get there? Sit down and clarify your goal until you can answer the question, "What are you looking for?" in 20 words or less.
  
