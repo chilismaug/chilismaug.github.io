@@ -1,7 +1,7 @@
 
 https://www.linkedin.com/pulse/how-ace-3-awkward-yet-basic-job-interview-questions-dana-manciagli?trk=hp-feed-article-title-publish
 
-1. "Tell me about yourself."
+* "Tell me about yourself."
 
 Nine out of 10 candidates blow this common-but-awkward question. It's awkward for the candidate because it is SO big and broad. The secret to answering it  make three points then stop talking:
 
@@ -11,7 +11,7 @@ Third sentence: Summarize why you are here today, interviewing for this position
 
 Example: I have a Bachelor of Science degree from UCLA in economics from 1995. I have seven years of operations experience in Fortune 500s such as Boeing and five years of finance experience, with a successful track record of execution excellence. I am here today because you are looking for someone with solid performance in ________ and _______ (from their job description).
 
-2. "Why should I hire you over other candidates?"
+* "Why should I hire you over other candidates?"
 
 The secret to answer it  make three points then stop talking! 
 Pull all three from THEIR job description. This question is not about YOUit's about THEM.
@@ -22,7 +22,7 @@ Second sentence: You need someone who is ______________ and __________ and I can
 
 Third sentence: You are looking for someone who is passionate about your company, your industry and this particular job. I really want this job, and I know I can deliver superior results for you and work well as a team member.
 
-3. "Give me an example where you have failed."
+* "Give me an example where you have failed."
 
 The secret to answer it: DON'T tell a horrific story that throws yourself under the bus.
 
