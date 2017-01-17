@@ -20,11 +20,9 @@ You need someone who is familiar with translating designs/user stories to code a
 You are looking for someone who is passionate about your company, your industry and this kind of job.  
 I really want this job, and I know I can deliver superior results for you and work well as a team member.  
   
-* "Give me an example where you have failed."  - a "middle" example that shows self-awareness AND what you learned:  
+* "Give me an example where you have failed."   
 
- I lead a major cross-team initiative but learned later that two people weren't fully on board. I should have met with each person individually, and I have done just that ever since.  
+Creating IA reports I spent so much time heads down that I sometimes get too far down the rabbit hole or just don't ask for help when others appear buried - always trying to beware not to do that and of looking out for others who might need another pair of eyes. 
 
- I had to analyze and synthesize tons of data into a report for senior executives. I spent so much time proofing my data and cross checking that I finished it at the last minute. Since then, I have enlisted an extra pair of eyes to review my work, and I complete things earlier. 
-
- In sales, I called on a major prospective client for six months, continuing to work with the people responsible for making the buying decision. However, I should have also worked the executive suite, including the CFO, with a value proposition that appealed to them. I learned how to do both effectively.  
+ 
 
