@@ -18,8 +18,7 @@ https://www.linkedin.com/pulse/how-ace-3-awkward-yet-basic-job-interview-questio
 
  You are looking for someone who is passionate about your company, your industry and this particular job. I really want this job, and I know I can deliver superior results for you and work well as a team member.  
 
-* "Give me an example where you have failed."  
- Give a "middle" example that shows self-awareness AND what you learned:  
+* "Give me an example where you have failed."  - a "middle" example that shows self-awareness AND what you learned:  
 
  I lead a major cross-team initiative but learned later that two people weren't fully on board. I should have met with each person individually, and I have done just that ever since.  
 
