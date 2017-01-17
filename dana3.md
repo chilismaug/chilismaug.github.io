@@ -1,23 +1,25 @@
 
 https://www.linkedin.com/pulse/how-ace-3-awkward-yet-basic-job-interview-questions-dana-manciagli?trk=hp-feed-article-title-publish
 
-* "Tell me about yourself."  
- 
+"Tell me about yourself."  
 
- I have a Bachelor of Science degree from UCLA in economics from 1995.   
- 
- I have seven years of operations experience in Fortune 500s such as Boeing and five years of finance experience, with a successful track record of execution excellence.  
- 
- I am here today because you are looking for someone with solid performance in ________ and _______ (from their job description).
+I have an Associate degree from Thomas Edison State College in CS/T from 1997 and  
+a Bachelor's from The Union Institute in MIS from 2001.  
 
-* "Why should I hire you over other candidates?"  3 points from THEIR job description  
+I have over 20 years of software integration and development experience in large corporations as well as small and nonprofit companies.  
 
- You are looking for someone who can do ___________. I have excelled in that for three years.  
+I am here today because you are looking for someone with solid performance working with healthcare integration and data interfaces.  
 
- You need someone who is ______________ and __________ and I can give specific examples where I have proven this is a core competency of mine.  
 
- You are looking for someone who is passionate about your company, your industry and this particular job. I really want this job, and I know I can deliver superior results for you and work well as a team member.  
+"Why should I hire you over other candidates?" 3 points from THEIR job description   
 
+You are looking for someone who can handle a wide range of software life cycle roles and I have performed many jobs such as testing,   requirements analysis, training and troubleshooting infrastructure issues involving software and hardware integration.   
+  
+You need someone who is familiar with translating designs/user stories to code as well as who can help explain technical issues to users, management and other technical staff - this is a core interest and competency of mine.   
+
+You are looking for someone who is passionate about your company, your industry and this kind of job.  
+I really want this job, and I know I can deliver superior results for you and work well as a team member.  
+  
 * "Give me an example where you have failed."  - a "middle" example that shows self-awareness AND what you learned:  
 
  I lead a major cross-team initiative but learned later that two people weren't fully on board. I should have met with each person individually, and I have done just that ever since.  
