@@ -11,13 +11,12 @@ I am here today because you are looking for someone with solid performance worki
 
 take 3 points from THEIR job description
 
-You are looking for someone who can handle a wide range of software life cycle roles and I have performed many jobs such as testing, requirements analysis, training and troubleshooting infrastructure issues involving software and hardware integration.
+You are looking for someone who can handle a wide range of software life cycle roles - I have performed many jobs such as testing, requirements analysis, training and troubleshooting infrastructure issues involving software and hardware integration.
 You need someone who is familiar with translating designs/user stories to code as well as who can help explain technical issues to users, management and other technical staff - this is a core interest and competency of mine.
+
 You are looking for someone who is passionate about your company, your industry and this kind of job.
 I really want this job, and I know I can deliver superior results for you and work well as a team member.
 
 "Give me an example where you have failed."
 
-Creating IA reports I spent so much time heads down that I sometimes get too far down the rabbit hole or just don't ask for help when others appear buried - always trying to beware not to do that and of looking out for others who might need another pair of eyes.
- 
-
+Creating IA reports I spent so much time heads down in details that I sometimes get too far down the rabbit hole or just don't ask for help when others appear buried. I have learned to beware of wasting time doing that and also to look out for others who might be spinning wheels in need of another pair of eyes.
