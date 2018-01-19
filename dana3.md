@@ -10,6 +10,7 @@ I am here today because you are looking for someone with solid performance worki
 "Why should I hire you over other candidates?" 
 
 take 3 points from THEIR job description
+
 You are looking for someone who can handle a wide range of software life cycle roles and I have performed many jobs such as testing, requirements analysis, training and troubleshooting infrastructure issues involving software and hardware integration.
 You need someone who is familiar with translating designs/user stories to code as well as who can help explain technical issues to users, management and other technical staff - this is a core interest and competency of mine.
 You are looking for someone who is passionate about your company, your industry and this kind of job.
