@@ -2,34 +2,34 @@
 <!DOCTYPE html>
 <html>
   <head>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
     <title>Location Example</title>
     <meta name="viewport" content="width=device-width, height=device-height initial-scale=1, user-scalable=yes" />
     <meta name="MobileOptimized" content="width" />
     <meta name="HandheldFriendly" content="true" />
 	<style>
-	html, body	{ 
-			background-color: #FFF; 
-			margin: 1 auto; 
-			color: #000; 
-			font: 12px/18px "Helvetica Nueu",Helvetica,Verdana,Arial,sans-serif; 
+	html, body	{
+			background-color: #FFF;
+			margin: 1 auto;
+			color: #000;
+			font: 12px/18px "Helvetica Nueu",Helvetica,Verdana,Arial,sans-serif;
 			text-align: left;
 			padding: 1em;
 	}
 	ul	{ padding: 0; margin: 0; clear: both; vertical-align: bottom; display: block }
 	ul li { margin: .5em 0; padding: 1em; list-style-type: none; float: left; width: 95% }
-	
+
 	/*  Get some colors for the mountains http://optional.is/required/2010/12/13/hls-world-map/ */
 	.kilimanjaro { background-color: rgb(26,39,99); color: #fff;}
 	.massif {  background-color: rgb(13,16,10); color: #fff; }
-	.jaya {  background-color: rgb(101,21,69); color: #fff; }	
+	.jaya {  background-color: rgb(101,21,69); color: #fff; }
 	.everest {  background-color: rgb(61,31,130); color: #fff; }
 	.elbrus {  background-color: rgb(33,54,141); color: #fff; }
 	.mckinley {  background-color: rgb(206,82,35); color: #000; }
 	.aconcagua {  background-color: rgb(30,66,29); color: #fff; }
 
-	.direction { 
-			font: 28px/36px  "Consolas", serif; 
+	.direction {
+			font: 28px/36px  "Consolas", serif;
 	}
 	div { clear: both; }
 	</style>
@@ -48,37 +48,37 @@
 		<h2><span class="name">Vinson Massif</span> <span class="direction" style="float: right">^</span> </h2>
 		<div>Lat: <span class="lat">-78.525483</span>, Lon: <span class="lon">-85.617147</span></div>
 		<div><span class="distance"></span> <span class="angle"></span></div>
- 
+
 	  </li>
       <li class="geo jaya">
 		<h2><span class="name">Puncak Jaya</span> <span class="direction" style="float: right">^</span> </h2>
 		<div>Lat: <span class="lat">-4.078889</span>, Lon: <span class="lon">137.158333</span></div>
 		<div><span class="distance"></span> <span class="angle"></span></div>
- 
+
 	  </li>
       <li class="geo everest">
 		<h2><span class="name">Everest</span> <span class="direction" style="float: right">^</span> </h2>
 		<div>Lat: <span class="lat">27.988056</span>, Lon: <span class="lon">86.925278</span></div>
 		<div><span class="distance"></span> <span class="angle"></span></div>
- 
+
 	  </li>
       <li class="geo elbrus">
 		<h2><span class="name">Elbrus</span> <span class="direction" style="float: right">^</span> </h2>
 		<div>Lat: <span class="lat">43.355</span>, Lon: <span class="lon">42.439167</span></div>
 		<div><span class="distance"></span> <span class="angle"></span></div>
- 
+
 	  </li>
       <li class="geo mckinley">
 		<h2><span class="name">Denali</span> <span class="direction" style="float: right">^</span> </h2>
 		<div>Lat: <span class="lat">63.0695</span>, Lon: <span class="lon">-151.0074</span></div>
 		<div><span class="distance"></span> <span class="angle"></span></div>
- 
+
 	  </li>
       <li class="geo aconcagua">
 		<h2><span class="name">Aconcagua</span> <span class="direction" style="float: right">^</span> </h2>
 		<div>Lat: <span class="lat">-32.653431</span>, Lon: <span class="lon">-70.011083</span></div>
 		<div><span class="distance"></span> <span class="angle"></span></div>
- 
+
 	  </li>
     </ul>
 	<div><a href="http://en.wikipedia.org/wiki/Seven_Summits">Seven Summits on Wikipedia</a></div>
@@ -99,17 +99,17 @@
 			}
 
         }
- 
+
         function geo_success(position) {
 			gLat = position.coords.latitude;
 			gLon = position.coords.longitude;
-			
+
 			// Is the compass from magnetic north or true north
 			// adjust for magnetic north.
 			north = distance(81.3, -110.8, gLat,gLon);
 			north = parseFloat(north[1])
-			
-			
+
+
 			$('.geo').each(function(){
 				tLat = $(this).find('.lat').html()
 				tLon = $(this).find('.lon').html()
@@ -119,7 +119,7 @@
 				$(this).find('.distance').html(d+' km away');
 				$(this).find('.direction').css('-webkit-transform','rotate(-' + a + 'deg)');
 				$(this).find('.angle').html(a);
-				
+
 				$(this).attr('data-arc',a);
 			})
 
@@ -130,7 +130,7 @@
 
 
 		function compass_error(){ window.alert('Error'); }
-		
+
 		function compass_success(heading){
 			window.alert('Success');
 			compassHeading = heading
@@ -139,18 +139,18 @@
 
 		window.addEventListener('deviceorientation', function(e) {
 			if(navigator.compass){
-				navigator.compass.getCurrentHeading(compass_success, compass_error);			
+				navigator.compass.getCurrentHeading(compass_success, compass_error);
 			} else if (e.webkitCompassHeading){
 				compassHeading = e.webkitCompassHeading
 			}
-			
+
 			$('.geo').each(function(){
 				var heading = $(this).attr('data-arc');
 				heading = compassHeading + parseFloat(heading) + window.orientation
 				$(this).find('.direction').css('-webkit-transform','rotate(-' + heading + 'deg)');
 				$('.compass').html(compassHeading);
 			});
-		
+
 		}, false);
 
 
@@ -160,14 +160,14 @@
 			var dLon = (lon2-lon1) * Math.PI / 180;
 			var lat1 = (lat1) * Math.PI / 180;
 			var lat2 = (lat2) * Math.PI / 180;
-		
+
 			var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
-			        Math.sin(dLon/2) * Math.sin(dLon/2) * Math.cos(lat1) * Math.cos(lat2); 
-			var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
+			        Math.sin(dLon/2) * Math.sin(dLon/2) * Math.cos(lat1) * Math.cos(lat2);
+			var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 			var d = R * c;
-		
+
 			arc = Math.atan2(dLat , dLon) * 180 / Math.PI
-		
+
 			return [d,arc]
 		}
 
