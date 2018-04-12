@@ -1,4 +1,4 @@
 chilismaug.github.io
 ====================
 
-GitHub Pages for me. Single page Pages.
+GitHub Pages for me. 
