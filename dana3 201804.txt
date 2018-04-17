@@ -1,19 +1,21 @@
 
 https://www.linkedin.com/pulse/how-ace-3-awkward-yet-basic-job-interview-questions-dana-manciagli?trk=hp-feed-article-title-publish
 
-_"Tell me about yourself."_
+"Tell me about yourself."
 
 I have Bachelor's in MIS from The Union Institute, which followed from an Associate degree from Thomas Edison State College in CS/T. 
 I have over 20 years of software integration and development experience working in large corporations as well as small and nonprofit companies.
 I am here today because you are looking for someone with solid performance integrating a wide range of technical resources with business processes.
 
-_"Why should I hire you over other candidates?"_
+"Why should I hire you over other candidates?" 
+
+take 3 points from THEIR job description
 
 You are looking for someone who can handle a wide range of software life cycle roles - I have performed many jobs such as testing, requirements analysis, training and troubleshooting software and hardware infrastructure.
 You need someone who is familiar with translating designs/user stories to code as well as who can help explain technical issues to users, management and other technical staff - for me this is a core competency.
 
 You are looking for someone who is passionate about this profession and with helping the customer succeed.  I really want this job, and I know I can deliver superior results for you and work well as a team member.
 
-_"Give me an example where you have failed."_
+"Give me an example where you have failed."
 
 Creating InfoArchive reports I spent so much time heads down in details that I sometimes got too far down the rabbit hole or hesitated to ask for help when others appear buried in their own issues. I have learned to beware of wasting time doing that and also to look out for others who might be in need of another pair of eyes due to similar wheel spinning.
