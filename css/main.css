@@ -79,10 +79,8 @@
 		}
 
 	h1 {
-		@include fluid-text(24px, 96px, 720px, 1680px);
     		font-family:'Helvetica', 'Arial', 'Sans-Serif';
 		margin: 0;
-		color: white;
 		}
 
 	}
@@ -128,6 +126,10 @@
 	   font-size: #{$max-font-size};
 	}
 	
+}
+
+h1 {	
+	@include fluid-text(24px, 96px, 720px, 1680px);
 }
 
 
