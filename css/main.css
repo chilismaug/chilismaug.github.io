@@ -3,12 +3,14 @@
 @media screen {
 
 	body {
+		margin: 60px auto;
+    		width: 70%;
 		font-family: 'Slabo 27px', serif;
 		font-size: 16px;
 		text-align: center;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
-	}
+	}	
 
 	.hero {
 		position: relative;
@@ -89,15 +91,11 @@
 	
 }
 
-h1 {	
+h1 {
 	@include fluid-text(24px, 96px, 720px, 1680px);
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-body {
-    margin: 60px auto;
-    width: 70%;
-}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
