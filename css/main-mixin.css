@@ -2,13 +2,6 @@
 
 @media screen {
 
-	body {
-		font-family: 'Slabo 27px', serif;
-		font-size: 16px;
-		text-align: center;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-	}
 
 	.hero {
 		position: relative;
