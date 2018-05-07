@@ -6,8 +6,15 @@ a:hover { text-decoration: underline; }
 p, ul { font-size: 2vmin; line-height: 1.8vmin; color: #333; }
 
 h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
+
 h1 {
-  font-size: 5.9vw;
+  font-size: calc(1.2em + 3vw);
+}
+
+@media (min-width: 50em) {
+  h1 {
+    font-size: 50px;
+  }
 }
 h2 {
   font-size: 3.0vh;
