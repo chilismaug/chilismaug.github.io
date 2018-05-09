@@ -36,7 +36,7 @@ p, ul { font-size: 3.6vmin; line-height: 3.1vmin; color: #333; }
 h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 
 h1 {
-  font-size: calc(1.8em + 2.3vw);
+  font-size: calc(1.8em + 3.2vw);
 }
 
 article {
