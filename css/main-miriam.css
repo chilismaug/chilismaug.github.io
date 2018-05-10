@@ -30,11 +30,11 @@ body { margin: 60px auto; width: 70%; }
 
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
-p, ul { font-size: 3.6vmin; line-height: 3.4vmin; color: #333; }
+p, ul { font-size: 3.6vmin; line-height: 3.7vmin; color: #333; }
 h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 
 h1 {
-  font-size: calc(1.6em + 3.2vw);
+  font-size: calc(1.4em + 3.2vw);
 }
 
 article {
