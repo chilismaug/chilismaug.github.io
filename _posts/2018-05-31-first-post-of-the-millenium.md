@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Karlo rossi, Template Squatter, Inhabits Blog"
+title: "Karlo Rossi, Template Squatter, Inhabits his own Blog"
 date: 2018-05-31
 ---
 
