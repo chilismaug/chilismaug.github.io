@@ -1,1 +1,1 @@
-How I code 
+How I code ![goog-1](B:\users\charles\GitHub\chilismaug.github.io\_posts\goog-1.jpg)
