@@ -1,3 +1,3 @@
 How I code...
 
- ![goog-1](B:\users\charles\GitHub\chilismaug.github.io\_posts\goog-1.jpg)
+ ![goog-1](https://chilismaug.github.io/images/goog-1.jpg)
