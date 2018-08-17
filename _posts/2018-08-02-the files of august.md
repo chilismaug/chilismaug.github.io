@@ -4,4 +4,4 @@
 
 These docs kindly provided by Benoit went offline and I likes to see them. 
 
-Title - apologogies Liz Phair (Phizlair)
+Title - apologies Liz Phair (Phizlair)
