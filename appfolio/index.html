@@ -7,22 +7,20 @@ title: Tutefolio de Carlos de Quintana Roos
     <div class="blurb">
         <h1>This is not the portfolio</h1>
         <p>
-            Since I've always been in "Enterprise IT" doing B2B stuff, there's no street-facing art to show from work.
-            But here's some things that I've munged together based on tutorial/sample code and dropped on the free clouds. <br>
+            I've always been in Enterprise IT, no portfolio. But here's some things that I've munged together from tutorial/sample code and dropped on the free clouds. <br>
             <h1>Big screens</h1>
             <ul>
 		<li>
 			<a href="https://gae-gcs-servlet.appspot.com/hello">PhraseOmatic.</a> A Java servlet example that started out from 
-			HeadFirst Java, with some enhancements, like a style sheet, and data loaded from text files rather than inline. 
-			This is deployed to Google Cloud Platform's App Engine. I just figured out how to get the files 
-			to be streamed from Google Cloud Storage buckets, so I can tweak my nonsense without recompiling. Content Management at last.	
+			HeadFirst Java, with  enhancements like a style sheet, and data loaded from text files rather than inline. 
+			This is deployed to Google Cloud Platform's App Engine. I figured out how to get the files to stream from Google Cloud Storage 
+			buckets, so I can tweak my nonsense without recompiling. Content management for cheap.	
 		</li>
  		<br>
                 <li>
                     <a href="https://weatherapiflask.appspot.com" target="blank">City-Weather picker - Flask on App Engine </a> <br>Playing
                     on <span data-tag>Google Cloud</span>, using Python's Flask framework. This is a current weather picker based on Tristan Ganry's <a href="https://medium.freecodecamp.org/how-to-build-a-web-app-using-pythons-flask-and-google-app-engine-52b1bb82b221">
-                        Medium article, grabbing weather info from an API
-                    </a> - I added a JSON data file for the city picklist, housed in a Goo Cloud Storage bucket, so I can change City data without touching code. 
+                        Medium article, grabbing weather info from OpenWeather API</a> - I added a JSON data file for the city picklist, housed in a Goo Cloud Storage bucket, so I can change City data without touching code. My cheapskate content management flow.
 			On the UI side, I merged request/response views to act more "single-pagey".
                 </li>
                 <br>
@@ -37,11 +35,10 @@ title: Tutefolio de Carlos de Quintana Roos
                         Wild Rydes!
                     </a> An <a href="https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/">
                         AWS tutorial app
-                    </a> - It's Ubercorns. You can register and call for a
-                    RYDE! Service defaults to Seattle but I called one to Boise, no Prob. I added a
-                    footer link (scroll waayyy... down) to call your Unicorn for a Ride. 
+                    </a> - It's Ubercorns. Register and call for a RYDE! Service defaults to Seattle but I called one to Boise, no Prob. Scroll waayyy... down to the footer 
+			to call your Unicorn for a Ride. 
 		<br> <br>
-			To build this you follow the steps to wire up AWS services including DynamoDB, REST API and Lambda. 
+			To build this on AWS you follow the steps to wire up services including DynamoDB, a REST API and Lambda. 
 			All the psychedelic page art and Lambda code was provided, FYI. I lapsed my AWS subs but the app still lives.
  
                 </li>
