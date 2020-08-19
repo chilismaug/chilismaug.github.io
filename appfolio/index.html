@@ -5,28 +5,26 @@ title: Tutefolio de Carlos de Quintana Roos
 
 <div class="container">
     <div class="blurb">
-        <h1>This is not the portfolio</h1>
+        <h1>This is not the web portfolio you are looking for</h1>
         <p>
-            I've always been in Enterprise IT, no portfolio. But here's some things that I've munged together from tutorial/sample code and dropped on the free clouds. <br>
+            I've always been in Enterprise IT, no portfolio. But here's some things that I've dropped on the free clouds. <br>
             <h1>Big screens</h1>
             <ul>
 		<li>
 			<a href="https://gae-gcs-servlet.appspot.com/hello">PhraseOmatic.</a> A Java servlet example that started out from 
-			HeadFirst Java, with  enhancements like a style sheet, and data loaded from text files rather than inline. 
-			This is deployed to Google Cloud Platform's App Engine. I figured out how to get the files to stream from Google Cloud Storage 
-			buckets, so I can tweak my nonsense without recompiling. Content management for cheap.	
+			HeadFirst Java, with  enhancements like a style sheet, and data loaded from text files rather than inline. Google Cloud App Engine and Cloud Storage 
+			buckets, so I can tweak the nonsense without recompiling. 
 		</li>
  		<br>
                 <li>
-                    <a href="https://weatherapiflask.appspot.com" target="blank">City-Weather picker - Flask on App Engine </a> <br>Playing
-                    on <span data-tag>Google Cloud</span>, using Python's Flask framework. This is a current weather picker based on Tristan Ganry's <a href="https://medium.freecodecamp.org/how-to-build-a-web-app-using-pythons-flask-and-google-app-engine-52b1bb82b221">
-                        Medium article, grabbing weather info from OpenWeather API</a> - I added a JSON data file for the city picklist, housed in a Goo Cloud Storage bucket, so I can change City data without touching code. My cheapskate content management flow.
+                    <a href="https://weatherapiflask.appspot.com" target="blank">City-Weather picker - Python - Flask on Goo App Engine </a> <br>This is a current weather picker based on Tristan Ganry's <a href="https://medium.freecodecamp.org/how-to-build-a-web-app-using-pythons-flask-and-google-app-engine-52b1bb82b221">
+                        Medium article, grabbing weather info from OpenWeather API</a> - I added JSON city choices on a Goo Cloud Storage bucket.
 			On the UI side, I merged request/response views to act more "single-pagey".
                 </li>
                 <br>
                 <li>
                     <a href="https://salty-springs-82738.herokuapp.com/" target="blank">City-Weather again - Node/Express on Heroku</a> <br>Same API from a different
-			way. This is based on Brandon Morelli's blogtorial in his codeburst offering, with a few tweaks to get it on Heroku. I've added Google Places API autocomplete
+			way. This is based on Brandon Morelli's blogtorial in his codeburst offering, tweaked to get it on Heroku. I added Google Places API autocomplete
 			feature to the City field because the city names are fun. Sadly, they are limited to USA. TODO: Rest of the World.
         	</li>	    
                 <br>
