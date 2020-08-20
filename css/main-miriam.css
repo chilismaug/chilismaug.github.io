@@ -1,6 +1,7 @@
 // Full height!
 body {
   min-height: 100vh;
+  max-width: 700px;
 }
 
 
